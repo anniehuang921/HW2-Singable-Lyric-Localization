@@ -47,3 +47,4 @@ docs/phase2b/*
 !docs/phase2b/README.md
 !docs/phase2b/ui-requirements.txt
 !docs/phase2b/public-summary.json
+rollout-*.jsonl

@@ -73,3 +73,14 @@ The CLT baseline (`data/bench/clt_translations.json`) comes from `scripts/clt_in
 ## License
 
 The software and original documentation are licensed under Apache-2.0. Third-party lyric excerpts and derived benchmark artifacts under `data/bench/` retain the dataset license described above.
+
+## HW2 Extensions
+
+Phase 1原版BLT Baseline、Phase2A官方Demo Gradio UI與Phase2B同模型Direct／BLT-assisted比較已完成。核心演算法與原鎖檔不變。
+
+- [Baseline](docs/baseline/BASELINE_REPORT.md)
+- [UI啟動與Remote SSH轉發](docs/phase2a/README.md)
+- [翻譯、驗證、人工編輯與安全設定](docs/phase2b/README.md)
+- [公開資料與私人實驗分界](docs/PUBLIC_RELEASE_REVIEW.md)
+
+官方音訊、歌詞、完整譯文與API Key不隨Repo散布。需本機唯讀YingMusic素材；無Key可執行合成測試與saved-only檢閱。數值符合不代表人工可唱性驗收，YingMusic推論與YouTube尚未整合。
