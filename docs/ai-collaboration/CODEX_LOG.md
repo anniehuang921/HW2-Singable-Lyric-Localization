@@ -40,3 +40,10 @@ AI修改：執行時Catalog Loader、可配置本機路徑、合成fixture測試
 - 公開前音訊smoke：EN_01／EN_02原詞載入、HTTP200、48000Hz，frames409434／395711，臨時UI關閉。
 - 已建立Baseline commit 175207f；UI／Translation commit 33497c2c3ff84834b611587e2516de2f811674bf。各筆stage均明確列檔、diff --check與憑證／私人路徑／實際受限歌詞比對通過。新main不以舊私人初始化為祖先。
 - 文件提交後再次fetch；只有原遠端未更新且fast-forward成立才Push。最終Push結果與本輪Session備份驗證保留私人release receipt及任務回報，避免commit自我引用。
+
+### 2026-10-16 — 最終驗證與 GitHub 認證阻礙
+
+- 從已提交HEAD用git archive建立無私人檔案的乾淨公開目錄，47測試中37通過、10官方素材整合skip（34.524秒），沒有Key或原始實驗依賴。
+- 三筆既有提交：175207ff83b748c68b252f9124556656150381db Baseline；33497c2c3ff84834b611587e2516de2f811674bf UI與Translation；9de7edb0aa81118fea394c2769c97b6b6bee07a0 公開工程文件。
+- 實際嘗試git push origin main；HTTPS因無可用認證／無互動終端而停止；唯讀SSH檢查亦認證失敗。沒有變更遠端、沒有force、沒有讀取或顯示憑證。GitHub main仍為原上游基準。
+- 本筆文件提交補記已完成的測試與阻礙；全部本機成果／私人原檔保留，等待使用者在Remote SSH Terminal配置或互動提供GitHub認證後才能完成Push。不是授權不足，也不是遠端歷史衝突。
