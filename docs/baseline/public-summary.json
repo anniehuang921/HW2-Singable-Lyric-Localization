@@ -1,0 +1,21 @@
+{
+  "source": "Original BLT local synthetic probes",
+  "cases": 21,
+  "pass": 16,
+  "observation": 4,
+  "known_expectation_failure": 1,
+  "known_failure": "Chinese rhyme comparison retains trailing punctuation.",
+  "other_limitations": [
+    "Digits can pass the Chinese validator.",
+    "Length mismatch feedback can disagree with boolean flags."
+  ],
+  "archived_reevaluation": {
+    "records": 100,
+    "nonempty": 96,
+    "SER": 0.048,
+    "SCRE": 0.0426,
+    "ARI": 0.9403,
+    "CCVO_nonempty": 0.3204,
+    "new_generation": false
+  }
+}

@@ -22,3 +22,28 @@ texput.log
 .playwright-mcp/
 cr-form.md
 forum.md
+
+# Local translation experiments (prompts/outputs; never credentials)
+artifacts/translations/
+
+# Credentials, private session material and local experiments
+.env
+.env.*
+!.env.example
+artifacts/
+.codex/
+*session*.jsonl
+*session-backups*/
+hw2_ui/demo_catalog.json
+docs/baseline/*
+!docs/baseline/BASELINE_REPORT.md
+!docs/baseline/run_baseline.py
+!docs/baseline/run_api_probes.py
+!docs/baseline/public-summary.json
+docs/phase2a/*
+!docs/phase2a/README.md
+!docs/phase2a/ui-requirements.txt
+docs/phase2b/*
+!docs/phase2b/README.md
+!docs/phase2b/ui-requirements.txt
+!docs/phase2b/public-summary.json
