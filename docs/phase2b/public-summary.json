@@ -1,0 +1,317 @@
+{
+  "provenance": "Measured real Gemini responses on 2026-10-15 Asia/Taipei; no new calls during release cleanup.",
+  "request_count": 6,
+  "usage": {
+    "prompt_tokens": 2557,
+    "completion_tokens": 713,
+    "total_tokens": 3270
+  },
+  "records": [
+    {
+      "demo_id": "SingEdit_EN_01",
+      "is_mock": false,
+      "provider": {
+        "provider": "openai-compatible",
+        "model": "gemini-3.5-flash-lite",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "temperature": 0.2,
+        "max_tokens": 4096,
+        "timeout": 45.0,
+        "reasoning_effort": "low",
+        "is_mock": false
+      },
+      "constraints": {
+        "target_syllables": [
+          8,
+          6
+        ],
+        "rhyme_scheme": "AB",
+        "target_patterns": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      },
+      "modes": {
+        "direct": {
+          "revisions": 0,
+          "status": "completed",
+          "syllables": [
+            11,
+            9
+          ],
+          "syllables_match": false,
+          "rhymes_valid": true,
+          "rhyme_endings": [
+            "a",
+            "uo"
+          ],
+          "patterns_match": false,
+          "pattern_similarity_score": 0.5399305555555556,
+          "attempts": [
+            {
+              "syllables": [
+                11,
+                9
+              ],
+              "syllables_match": false,
+              "rhymes_valid": true,
+              "patterns_match": false,
+              "han_only": true,
+              "api_response": {
+                "http_status": 200,
+                "response_model": "gemini-3.5-flash-lite",
+                "usage": {
+                  "completion_tokens": 95,
+                  "prompt_tokens": 125,
+                  "total_tokens": 220
+                },
+                "finish_reason": "stop"
+              }
+            }
+          ]
+        },
+        "blt_assisted": {
+          "revisions": 0,
+          "status": "completed",
+          "syllables": [
+            8,
+            6
+          ],
+          "syllables_match": true,
+          "rhymes_valid": true,
+          "rhyme_endings": [
+            "in",
+            "en"
+          ],
+          "patterns_match": false,
+          "pattern_similarity_score": 0.5684523809523809,
+          "attempts": [
+            {
+              "syllables": [
+                8,
+                6
+              ],
+              "syllables_match": true,
+              "rhymes_valid": true,
+              "patterns_match": false,
+              "han_only": true,
+              "api_response": {
+                "http_status": 200,
+                "response_model": "gemini-3.5-flash-lite",
+                "usage": {
+                  "completion_tokens": 85,
+                  "prompt_tokens": 255,
+                  "total_tokens": 340
+                },
+                "finish_reason": "stop"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "demo_id": "SingEdit_EN_02",
+      "is_mock": false,
+      "provider": {
+        "provider": "openai-compatible",
+        "model": "gemini-3.5-flash-lite",
+        "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+        "temperature": 0.2,
+        "max_tokens": 4096,
+        "timeout": 45.0,
+        "reasoning_effort": "low",
+        "is_mock": false
+      },
+      "constraints": {
+        "target_syllables": [
+          6,
+          3,
+          4,
+          2
+        ],
+        "rhyme_scheme": "ABCD",
+        "target_patterns": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      "modes": {
+        "direct": {
+          "revisions": 0,
+          "status": "completed",
+          "syllables": [
+            7,
+            5,
+            7,
+            6
+          ],
+          "syllables_match": false,
+          "rhymes_valid": true,
+          "rhyme_endings": [
+            "u",
+            "e",
+            "ai",
+            "ie"
+          ],
+          "patterns_match": false,
+          "pattern_similarity_score": 0.4375,
+          "attempts": [
+            {
+              "syllables": [
+                7,
+                5,
+                7,
+                6
+              ],
+              "syllables_match": false,
+              "rhymes_valid": true,
+              "patterns_match": false,
+              "han_only": true,
+              "api_response": {
+                "http_status": 200,
+                "response_model": "gemini-3.5-flash-lite",
+                "usage": {
+                  "completion_tokens": 158,
+                  "prompt_tokens": 203,
+                  "total_tokens": 361
+                },
+                "finish_reason": "stop"
+              }
+            }
+          ]
+        },
+        "blt_assisted": {
+          "revisions": 2,
+          "status": "completed",
+          "syllables": [
+            6,
+            3,
+            4,
+            2
+          ],
+          "syllables_match": true,
+          "rhymes_valid": true,
+          "rhyme_endings": [
+            "u",
+            "e",
+            "ao",
+            "i"
+          ],
+          "patterns_match": false,
+          "pattern_similarity_score": 0.5833333333333334,
+          "attempts": [
+            {
+              "syllables": [
+                8,
+                3,
+                5,
+                2
+              ],
+              "syllables_match": false,
+              "rhymes_valid": true,
+              "patterns_match": false,
+              "han_only": false,
+              "api_response": {
+                "http_status": 200,
+                "response_model": "gemini-3.5-flash-lite",
+                "usage": {
+                  "completion_tokens": 115,
+                  "prompt_tokens": 345,
+                  "total_tokens": 460
+                },
+                "finish_reason": "stop"
+              }
+            },
+            {
+              "syllables": [
+                6,
+                3,
+                4,
+                2
+              ],
+              "syllables_match": true,
+              "rhymes_valid": true,
+              "patterns_match": true,
+              "han_only": false,
+              "api_response": {
+                "http_status": 200,
+                "response_model": "gemini-3.5-flash-lite",
+                "usage": {
+                  "completion_tokens": 112,
+                  "prompt_tokens": 908,
+                  "total_tokens": 1020
+                },
+                "finish_reason": "stop"
+              }
+            },
+            {
+              "syllables": [
+                6,
+                3,
+                4,
+                2
+              ],
+              "syllables_match": true,
+              "rhymes_valid": true,
+              "patterns_match": false,
+              "han_only": true,
+              "api_response": {
+                "http_status": 200,
+                "response_model": "gemini-3.5-flash-lite",
+                "usage": {
+                  "completion_tokens": 148,
+                  "prompt_tokens": 721,
+                  "total_tokens": 869
+                },
+                "finish_reason": "stop"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Two demos only; no human quality or singability assessment.",
+    "AB and ABCD contain no repeated rhyme groups.",
+    "All final word patterns mismatch.",
+    "Original BLT Skill rules ported to a bounded adapter workflow, not a full original Agent reproduction."
+  ]
+}
