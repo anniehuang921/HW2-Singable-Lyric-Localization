@@ -1,0 +1,41 @@
+# HW2 independent inference overlay; install PyTorch trio separately from cu128.
+# Do not install upstream torchcodec0.10 or training/evaluation extras blindly.
+torch==2.7.1
+torchaudio==2.7.1
+torchvision==0.22.1
+hydra-core==1.3.2
+omegaconf==2.3.0
+huggingface-hub==0.35.3
+safetensors==0.6.2
+transformers==4.57.6
+tokenizers==0.22.2
+ema-pytorch==0.7.7
+einops==0.8.1
+einops-exts==0.0.4
+einx==0.3.0
+rotary-embedding-torch==0.8.9
+x-transformers==2.1.2
+vector-quantize-pytorch==1.23.2
+alias-free-torch==0.0.6
+descript-audio-codec==1.0.0
+descript-audiotools==0.7.2
+torchdiffeq==0.2.5
+librosa==0.10.2.post1
+soundfile==0.13.1
+scipy==1.15.3
+numba==0.62.1
+pypinyin==0.55.0
+cn2an==0.5.23
+phonemizer==3.3.0
+jieba==0.42.1
+zhconv==1.4.3
+zhon==2.1.1
+py3langid==0.3.0
+onnxruntime==1.23.2
+ml-collections==1.1.0
+wandb==0.22.1
+loralib==0.1.2
+matplotlib==3.10.8
+inflect==7.5.0
+# Imported dynamically by the selected separator architecture (upstream subproject pin).
+beartype==0.14.1

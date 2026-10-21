@@ -1,0 +1,11 @@
+{
+  "model_id": "ASLP-lab/YingMusic-Singer-Plus",
+  "revision": "9b3f444f2bccd77fbc03e32eb7c334fc96040b8d",
+  "model_cfg_path": "/ABSOLUTE/PATH/TO/YingMusic_Singer.yaml",
+  "ckpt_path": "/ABSOLUTE/PATH/TO/YingMusicSinger_model.pt",
+  "vae_config_path": "/ABSOLUTE/PATH/TO/stable_audio_2_0_vae_20hz_official.json",
+  "vae_ckpt_path": "/ABSOLUTE/PATH/TO/stable_audio_2_0_vae_20hz_official.ckpt",
+  "midi_teacher_ckpt_path": "/ABSOLUTE/PATH/TO/model_ckpt_steps_100000_simplified.ckpt",
+  "separator_config": "/ABSOLUTE/PATH/TO/config_vocals_mel_band_roformer_kj.yaml",
+  "separator_checkpoint": "/ABSOLUTE/PATH/TO/MelBandRoformer.ckpt"
+}

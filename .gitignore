@@ -48,3 +48,45 @@ docs/phase2b/*
 !docs/phase2b/ui-requirements.txt
 !docs/phase2b/public-summary.json
 rollout-*.jsonl
+
+# Phase 3 private synthesized audio and inference records
+artifacts/singing/
+
+# Official datasets, lyrics, audio, metadata and local verification receipts
+artifacts/datasets/
+
+# Local datasets, checkpoints, caches, environments and private runtime output
+/datasets/
+/checkpoints/
+/weights/
+/models/
+/model-cache/
+/.cache/
+/.conda/
+/.mamba/
+/envs/
+/venv/
+/venv-*/
+/logs/
+/outputs/
+/sessions/
+/session-backups/
+.pytest_cache/
+*.log
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.mid
+*.midi
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.zip
+*.tar.gz
+*.pem
+*.key
+credentials*.json
