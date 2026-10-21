@@ -11,3 +11,9 @@
 本輪沒有新API、模型下載、Billing或演算法修改。公開測試以合成輸入驗證工程流程；原素材與真實結果整合測試依本機條件執行。完成測試／history與staged掃描後才Push，遠端更新即停止。
 
 最終狀態：安全清理、完整備份、47本機單元測試及乾淨公開目錄37通過／10條件skip均完成。Push已嘗試，但Server缺可用GitHub HTTPS／SSH認證，遠端未修改。需要使用者於自己的Terminal提供GitHub認證；勿將token放入對話／URL／命令列或檔案。
+
+## 2026-10-21：Phase3–4B發布準備（未提交）
+
+遠端main與本機HEAD一致，無staged變更。本輪補齊公開README／manifest範例／忽略規則，原始內部盤點及完整日誌先逐檔私人快照備份，公開保留方法與無詞統計。資料、模型、完整詞／Prompt／response、音訊及Session皆不列入新提交。
+
+既有公開歷史有舊上游home參照與授權benchmark歌詞／trace；沒有改寫或自行刪除歷史，不能宣稱整個歷史零歌詞。新候選的安全盤點、精確路徑清單、測試與兩筆commit方案見[RELEASE_PREPARATION.md](RELEASE_PREPARATION.md)。只準備，等待人工確認commit／push，不切Phase4C分支。

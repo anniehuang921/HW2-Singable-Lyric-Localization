@@ -1,0 +1,57 @@
+{
+  "status": "proposal_only_nothing_staged",
+  "baseline": "ad565d86e531f64064ed4d93520fde109f5041e5",
+  "groups": [
+    {
+      "message": "feat: integrate YingMusic singing and CSD comparison workflows",
+      "files": [
+        ".gitignore",
+        "docs/phase3/gpu-requirements.txt",
+        "docs/phase3/manifest.example.json",
+        "hw2_datasets/__init__.py",
+        "hw2_datasets/csd.py",
+        "hw2_datasets/excerpt.py",
+        "hw2_datasets/presenter.py",
+        "hw2_datasets/verify_csd.py",
+        "hw2_datasets/workflow.py",
+        "hw2_singing/__init__.py",
+        "hw2_singing/adapter.py",
+        "hw2_singing/worker.py",
+        "hw2_translation/credential_check.py",
+        "hw2_ui/app.py",
+        "scripts/extract_csd.py",
+        "scripts/run_csd_first_singing.py",
+        "scripts/start_csd_phase4b.sh",
+        "scripts/start_singing_ui.sh",
+        "tests/phase3_live.py",
+        "tests/phase4a_live.py",
+        "tests/phase4b_live.py",
+        "tests/test_csd.py",
+        "tests/test_csd_credentials.py",
+        "tests/test_csd_excerpt.py",
+        "tests/test_singing.py"
+      ]
+    },
+    {
+      "message": "docs: document verified Phase 3–4B workflows and release review",
+      "files": [
+        "README.md",
+        "docs/DECISIONS.md",
+        "docs/HW2_CONTEXT.md",
+        "docs/PUBLIC_RELEASE_REVIEW.md",
+        "docs/RELEASE_FILES.json",
+        "docs/RELEASE_PREPARATION.md",
+        "docs/ai-collaboration/CODEX_LOG.md",
+        "docs/phase3/DEPLOYMENT_STATUS.md",
+        "docs/phase3/ENVIRONMENT.md",
+        "docs/phase3/README.md",
+        "docs/phase3/STORAGE_AND_MODEL_PLAN.md",
+        "docs/phase4a/README.md",
+        "docs/phase4a/RESULTS.md",
+        "docs/phase4b/README.md",
+        "docs/phase4b/RESULTS.md",
+        "docs/phase4b/TRANSLATION_FAILURE_DIAGNOSIS.md"
+      ]
+    }
+  ]
+}
